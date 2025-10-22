@@ -54,5 +54,14 @@ This pipeline will generate the following files:
 
   * `clustering_results.csv`: A table comparing the internal and external evaluation metrics for all tested clustering algorithms.
   * `pca_variance.png`: A line plot showing the cumulative explained variance by the number of SVD components.
+ 
+<div align="center"> 
+     <img src="https://github.com/xyz2094/protein-clustering/blob/main/outputs/pca_variance.png" width=480 height="360">
+</div>
+
   * `best_clustering_labels.npy`: A NumPy array file containing the final predicted cluster labels from the best-optimized model.
   * `top20_cluster_distribution_graph`: A bar chart visualizing the size of the top 20 clusters, saved by `cluster_distribution.py`.
+  
+<div align="center"> 
+     <img src="https://github.com/xyz2094/protein-clustering/blob/main/outputs/grafico_distribuicao_clusters_TOP20.png" width=480 height="360">
+</div>
